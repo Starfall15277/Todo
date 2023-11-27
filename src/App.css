@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white !important; 
+  background-color: #222 !important;
+}
+
+.navbar {
+  background-color: #313131 !important; 
+  height: 50px;
+}
+
+.navbar-bottom {
+  background-color: #363636; 
+  height: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%; 
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+textarea {
+  width: 100%; 
+  resize: vertical; 
+}
